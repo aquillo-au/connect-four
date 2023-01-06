@@ -1,0 +1,8 @@
+.red-turn {
+  position: absolute;
+  width: 191px;
+  height: 150px;
+  left: 625px;
+  top: 700px;
+  z-index: 15;
+}
