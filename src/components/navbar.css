@@ -1,0 +1,26 @@
+.navbar {
+  position: absolute;
+  width: 632px;
+  height: 52px;
+  left: 404px;
+  top: 53px;
+}
+.purple-button {
+  background: #5C2DD5;
+  border-radius: 20px;
+}
+
+.restart-button {
+  position: absolute;
+  width: 108px;
+  height: 39px;
+  left: 524px;
+}
+
+.menu-button {
+  position: absolute;
+  width: 86px;
+  height: 39px;
+  left: 0px;
+  bottom: 13px;
+}

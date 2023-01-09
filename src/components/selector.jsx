@@ -10,7 +10,7 @@ const Selector = ({src, onMouseEnter, onClick}) => {
         src === 'red' ? redArrow
         : src === 'yellow' ? yellowArrow
         : ''
-      } className = {'selector-arrow'} alt ={'selector'}/>
+      }  alt =''/>
     </div>
 
   );
