@@ -24,3 +24,13 @@
   left: 0px;
   bottom: 13px;
 }
+
+.token-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  left: 278px;
+  bottom: 28px;
+}

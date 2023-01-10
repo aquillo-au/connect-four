@@ -8,6 +8,8 @@ import Token from "./components/token"
 import Selector from "./components/selector"
 import SelectorBox from "./components/selectorBox"
 import Navbar from "./components/navbar"
+import Menu from "./components/menu"
+import Footer from "./components/footer"
 
 function App() {
   let nextPlayer = ''
@@ -192,7 +194,7 @@ function App() {
   }
   return (
     <div className="App">
-
+      {/* <Menu/> */}
       <ScoreBoard player = 'red' name ={game.redName} score ={game.redScore}/>
       <div className = "game-box">
       <Navbar onClick={RestartGame}/>
@@ -217,7 +219,6 @@ function App() {
               return (
                 <Token
                   key={i}
-                  cordinates = {i}
                   src={slot}
                 />
               );
@@ -227,6 +228,7 @@ function App() {
         <GameStatus player ={game.player} yellow ={game.yellowName} red ={game.redName} timer={counter} winner={game.winner} onClick={playAgain}/>
       </div>
       <ScoreBoard player = "yellow" name ={game.yellowName} score ={game.yellowScore}/>
+      <Footer winner ={game.winner}/>
     </div>
   );
 }

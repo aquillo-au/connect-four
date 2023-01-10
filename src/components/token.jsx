@@ -2,7 +2,7 @@ import "./token.css";
 import yellowToken from "./images/counter-yellow-large.svg"
 import redToken from "./images/counter-red-large.svg"
 
-const Token = ({ cordinates, src}) => {
+const Token = ({src}) => {
   return (
     <img
     src = {
@@ -10,7 +10,6 @@ const Token = ({ cordinates, src}) => {
       : src === 'yellow' ? yellowToken
       : ''
     }
-    data={cordinates}
     alt ={src}
     />
 
